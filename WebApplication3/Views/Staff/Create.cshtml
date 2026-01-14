@@ -1,0 +1,106 @@
+﻿@model WebApplication3.Models.Staff
+
+@{
+    ViewData["Title"] = "Thêm nhân viên";
+}
+
+<style>
+    .form-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background: white;
+        padding: 32px;
+        border-radius: 12px;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #1e293b;
+        }
+
+    .form-control {
+        width: 100%;
+        padding: 10px 12px;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        outline: none;
+        transition: border 0.2s;
+    }
+
+        .form-control:focus {
+            border-color: #2962ff;
+            box-shadow: 0 0 0 3px rgba(41, 98, 255, 0.1);
+        }
+
+    .btn-group {
+        display: flex;
+        gap: 12px;
+        margin-top: 32px;
+    }
+
+    .btn-save {
+        background: #2962ff;
+        color: white;
+        border: none;
+        padding: 10px 24px;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .btn-back {
+        background: #f1f5f9;
+        color: #475569;
+        text-decoration: none;
+        padding: 10px 24px;
+        border-radius: 8px;
+        font-weight: 600;
+    }
+</style>
+
+<div class="main-layout">
+    @* Giữ nguyên Sidebar từ file Index *@
+    <div class="content-area">
+        <div class="page-header">
+            <h1>Thêm nhân viên mới</h1>
+            <p>Nhập thông tin chi tiết cho nhân viên mới vào hệ thống</p>
+        </div>
+
+        <div class="form-container">
+            <form asp-action="Create">
+                <div class="form-group">
+                    <label>Họ và tên</label>
+                    <input asp-for="Name" class="form-control" placeholder="Nguyễn Văn A" required />
+                </div>
+                <div class="form-group">
+                    <label>Số điện thoại</label>
+                    <input asp-for="Phone" class="form-control" placeholder="090..." />
+                </div>
+                <div class="form-group">
+                    <label>Vị trí</label>
+                    <input asp-for="Position" class="form-control" placeholder="Nhân viên vệ sinh, Quản lý..." />
+                </div>
+                <div class="form-group">
+                    <label>Trạng thái</label>
+                    <select asp-for="Status" class="form-control">
+                        <option value="Active">Đang làm</option>
+                        <option value="Inactive">Nghỉ việc</option>
+                    </select>
+                </div>
+
+                <div class="btn-group">
+                    <button type="submit" class="btn-save">Lưu thông tin</button>
+                    <a asp-action="Index" class="btn-back">Hủy bỏ</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

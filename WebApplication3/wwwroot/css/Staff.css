@@ -1,0 +1,218 @@
+﻿/* --- BIẾN TOÀN CỤC --- */
+:root {
+    --primary-color: #2962ff;
+    --primary-hover: #1e40af;
+    --bg-sidebar: #ffffff;
+    --bg-body: #f7f7f7;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --border-color: #e2e8f0;
+    --white: #ffffff;
+    --danger: #ef4444;
+}
+
+/* --- LAYOUT CHÍNH --- */
+.main-layout {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+/* --- SIDEBAR (MENU CẠNH) --- */
+.sidebar {
+    width: 260px;
+    background-color: var(--bg-sidebar);
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.sidebar-logo {
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.sidebar-menu {
+    padding: 16px;
+    flex-grow: 1;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    color: var(--text-muted);
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+    .menu-item:hover {
+        background-color: #f1f5f9;
+        color: var(--text-main);
+    }
+
+    .menu-item.active {
+        background-color: #eff6ff;
+        color: var(--primary-color);
+    }
+
+/* --- NỘI DUNG CHÍNH --- */
+.content-area {
+    flex-grow: 1;
+    background-color: var(--bg-body);
+    padding: 32px;
+}
+
+.page-header {
+    margin-bottom: 24px;
+}
+
+    .page-header h1 {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0;
+        color: var(--text-main);
+    }
+
+/* --- BẢNG DỮ LIỆU --- */
+.data-card {
+    background: var(--white);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.staff-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .staff-table th {
+        background: #f8fafc;
+        padding: 12px 20px;
+        color: var(--text-muted);
+        font-size: 12px;
+        text-transform: uppercase;
+        text-align: left;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .staff-table td {
+        padding: 16px 20px;
+        border-bottom: 1px solid #f1f5f9;
+        font-size: 14px;
+    }
+
+/* --- TRẠNG THÁI (BADGES) --- */
+.status-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+}
+
+.badge-active {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.badge-inactive {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.badge-active .dot {
+    background: #22c55e;
+}
+
+.badge-inactive .dot {
+    background: var(--danger);
+}
+
+/* --- FORM NHẬP LIỆU (CREATE/EDIT) --- */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--white);
+    padding: 32px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: var(--text-main);
+    }
+
+.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-sizing: border-box; /* Quan trọng để input không bị tràn */
+}
+
+    .form-control:focus {
+        border-color: var(--primary-color);
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(41, 98, 255, 0.1);
+    }
+
+/* --- NÚT BẤM --- */
+.btn-primary {
+    background: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+    .btn-primary:hover {
+        background: var(--primary-hover);
+    }
+
+.btn-secondary {
+    background: #f1f5f9;
+    color: #475569;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.btn-danger {
+    background: var(--danger);
+    color: white;
+}

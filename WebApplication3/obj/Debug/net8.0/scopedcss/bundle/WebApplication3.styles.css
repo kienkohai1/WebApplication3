@@ -1,0 +1,117 @@
+/* _content/WebApplication3/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-7kk3sr3rte] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-7kk3sr3rte] {
+  color: #0077cc;
+}
+
+.btn-primary[b-7kk3sr3rte] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-7kk3sr3rte], .nav-pills .show > .nav-link[b-7kk3sr3rte] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-7kk3sr3rte] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-7kk3sr3rte] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-7kk3sr3rte] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-7kk3sr3rte] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-7kk3sr3rte] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* Sidebar Container */
+.sidebar[b-7kk3sr3rte] {
+    width: 260px;
+    min-width: 260px;
+    background-color: #ffffff;
+    border-right: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+/* Logo phần đầu sidebar */
+.sidebar-logo[b-7kk3sr3rte] {
+    padding: 32px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-text[b-7kk3sr3rte] {
+    font-size: 22px;
+    font-weight: 800;
+    color: #2962ff; /* Màu xanh chủ đạo */
+    letter-spacing: -0.5px;
+}
+
+/* Menu List */
+.sidebar-menu[b-7kk3sr3rte] {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Từng mục Menu */
+.menu-item[b-7kk3sr3rte] {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    color: #64748b; /* Màu chữ xám nhẹ */
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+
+    /* Hiệu ứng Hover */
+    .menu-item:hover[b-7kk3sr3rte] {
+        background-color: #f1f5f9;
+        color: #1e293b;
+    }
+
+    /* Mục đang được chọn (Active) */
+    .menu-item.active[b-7kk3sr3rte] {
+        background-color: #eff6ff;
+        color: #2962ff;
+    }
+
+    /* Icon trong menu */
+    .menu-item svg[b-7kk3sr3rte] {
+        width: 20px;
+        height: 20px;
+        stroke-width: 2;
+    }

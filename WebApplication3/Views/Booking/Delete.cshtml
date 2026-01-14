@@ -1,0 +1,65 @@
+﻿@model WebApplication3.Models.Booking
+
+@{
+    ViewData["Title"] = "Xác nhận xóa đặt sân";
+}
+
+<style>
+    /* Kế thừa style từ trang Staff để đảm bảo hiển thị đúng form-container và các nút */
+    .form-container {
+        background: white;
+        padding: 40px;
+        border-radius: 12px;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .btn-save {
+        padding: 10px 24px;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+        transition: opacity 0.2s;
+    }
+
+    .btn-back {
+        padding: 10px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #64748b;
+        background: #f1f5f9;
+        font-weight: 600;
+    }
+</style>
+
+<div class="main-layout">
+    <div class="content-area" style="display: flex; align-items: center; justify-content: center; min-height: 80vh;">
+        <div class="form-container" style="text-align: center; border-top: 4px solid #ef4444;">
+            <div style="color: #ef4444; margin-bottom: 16px;">
+                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                    <line x1="12" y1="9" x2="12" y2="13"></line>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
+            </div>
+
+            <h2>Xác nhận xóa đặt sân?</h2>
+            <p style="color: #64748b; margin-bottom: 24px;">
+                Bạn có chắc chắn muốn xóa đơn đặt sân của <strong>@Model.CustomerName</strong> tại <strong>@Model.Court</strong>? [cite: 57]
+                <br>Hành động này không thể hoàn tác và sẽ gỡ bỏ thông tin khỏi hệ thống. [cite: 57]
+            </p>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <div style="display: flex; justify-content: center; gap: 12px;">
+                    <button type="submit" class="btn-save" style="background: #ef4444;">Xóa vĩnh viễn</button>
+                    <a asp-action="Index" class="btn-back">Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

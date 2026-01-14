@@ -1,0 +1,27 @@
+﻿@model WebApplication3.Models.Staff
+
+@{
+    ViewData["Title"] = "Xác nhận xóa";
+}
+
+<div class="main-layout">
+    <div class="content-area" style="display: flex; align-items: center; justify-content: center;">
+        <div class="form-container" style="text-align: center; border-top: 4px solid #ef4444;">
+            <div style="color: #ef4444; margin-bottom: 16px;">
+                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            </div>
+            <h2>Xác nhận xóa nhân viên?</h2>
+            <p style="color: #64748b; margin-bottom: 24px;">
+                Bạn có chắc chắn muốn xóa nhân viên <strong>@Model.Name</strong>? <br>Hành động này không thể hoàn tác.
+            </p>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <div style="display: flex; justify-content: center; gap: 12px;">
+                    <button type="submit" class="btn-save" style="background: #ef4444;">Xóa vĩnh viễn</button>
+                    <a asp-action="Index" class="btn-back">Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
