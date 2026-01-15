@@ -1,0 +1,155 @@
+﻿@model IEnumerable<WebApplication3.Models.ServiceOrder>
+@{
+    ViewData["Title"] = "Quản lý Dịch vụ";
+}
+
+<div class="main-layout">
+    <aside class="sidebar">
+        <div style="padding: 24px; text-align: center;">
+            <div style="font-size: 18px; font-weight: 800; color: #1e293b;">Quản lý Sân Tập</div>
+            <div style="font-size: 16px; color: var(--primary-color); font-weight: 600;">The Hunter</div>
+        </div>
+
+        <nav class="sidebar-menu">
+            <p style="font-size: 12px; color: var(--text-muted); padding: 0 16px; margin-bottom: 8px;">Menu quản lý</p>
+            <a href="#" class="menu-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                Dashboard
+            </a>
+            <a asp-controller="Court" asp-action="Index" class="menu-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                Quản lý sân
+            </a>
+            <a asp-controller="Staff" asp-action="Index" class="menu-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+                Quản lý nhân sự
+            </a>
+
+            <a asp-controller="Booking" asp-action="Index" class="menu-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"></path>
+                </svg>
+                Đăng ký vé
+            </a>
+
+            <a asp-controller="Order" asp-action="Index" class="menu-item active">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                Yêu cầu thêm
+            </a>
+
+            <a href="#" class="menu-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                </svg>
+                Kho hàng
+            </a>
+        </nav>
+    </aside>
+
+    <main class="content-area">
+        <div class="page-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+            <div>
+                <h1 style="font-size: 24px; font-weight: 700;">Dịch vụ & Gọi đồ</h1>
+                <p style="color: #64748b;">Quản lý yêu cầu phục vụ tại các sân</p>
+            </div>
+            <div class="data-card" style="padding: 16px; background: #eff6ff; border: 1px solid #bfdbfe;">
+                <form asp-action="Create" method="post" style="display: flex; gap: 10px; align-items: flex-end;">
+                    <div>
+                        <label style="font-size: 12px; font-weight: 600;">Khách hàng</label>
+                        <input name="CustomerName" required class="form-control" style="width: 150px;" />
+                    </div>
+                    <div>
+                        <label style="font-size: 12px; font-weight: 600;">Sân</label>
+                        <select name="CourtName" class="form-control">
+                            @for (int i = 1; i <= 8; i++)
+                            {
+                                <option>Sân @i</option>
+                            }
+                        </select>
+                    </div>
+                    <div>
+                        <label style="font-size: 12px; font-weight: 600;">Món đồ</label>
+                        <select name="ItemName" class="form-control">
+                            <option>Nước suối</option>
+                            <option>Bia tập</option>
+                            <option>Mũi tên</option>
+                            <option>Khăn lạnh</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label style="font-size: 12px; font-weight: 600;">SL</label>
+                        <input type="number" name="Quantity" value="1" min="1" class="form-control" style="width: 60px;" />
+                    </div>
+                    <button type="submit" class="btn-submit" style="background:#2962ff; color:white; border:none; padding: 10px 20px; border-radius: 8px; cursor:pointer;">+ Gọi đồ</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="data-card" style="background:white; border-radius: 12px; border: 1px solid #e2e8f0;">
+            <table class="staff-table" style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr style="background: #f8fafc; text-align: left; border-bottom: 1px solid #e2e8f0;">
+                        <th style="padding: 15px;">Vị trí</th>
+                        <th>Khách hàng</th>
+                        <th>Nội dung gọi</th>
+                        <th>Tổng tiền</th>
+                        <th>Trạng thái</th>
+                        <th style="text-align: right; padding-right: 15px;">Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model)
+                    {
+                        <tr style="border-bottom: 1px solid #f1f5f9;">
+                            <td style="padding: 15px;"><span style="font-weight: 700; color: #2962ff;">@order.CourtName</span></td>
+                            <td><span style="font-weight: 600;">@order.CustomerName</span></td>
+                            <td>@order.ItemName (SL @order.Quantity)</td>
+                            <td style="font-weight: 700;">@order.TotalPrice.ToString("N0")đ</td>
+                            <td>
+                                @if (order.Status == OrderStatus.Waiting)
+                                {
+                                    <span style="color:#f59e0b;">● Chờ phục vụ</span>
+                                }
+                                else if (order.Status == OrderStatus.InService)
+                                {
+                                    <span style="color:#2962ff;">● Đang phục vụ</span>
+                                }
+                                else if (order.Status == OrderStatus.Completed)
+                                {
+                                    <span style="color:#22c55e;">● Hoàn thành</span>
+                                }
+                                else
+                                {
+                                    <span style="color:#ef4444;">● Từ chối</span>
+                                }
+                            </td>
+                            <td style="text-align: right; padding-right: 15px;">
+                                <form asp-action="UpdateStatus" method="post" style="display: inline;">
+                                    <input type="hidden" name="id" value="@order.Id" />
+                                    <select name="status" onchange="this.form.submit()" style="font-size: 12px; padding: 4px;">
+                                        <option value="Waiting">Đổi trạng thái</option>
+                                        <option value="InService">Đang phục vụ</option>
+                                        <option value="Completed">Hoàn thành</option>
+                                        <option value="Rejected">Từ chối</option>
+                                    </select>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </main>
+</div>
