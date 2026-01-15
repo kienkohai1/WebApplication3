@@ -5,176 +5,6 @@
     ViewData["Title"] = "Quản lý Đặt Sân";
 }
 
-<style>
-    :root {
-        --primary-color: #2962ff;
-        --bg-sidebar: #ffffff;
-        --bg-body: #f7f7f7;
-        --text-main: #1e293b;
-        --text-muted: #64748b;
-        --border-color: #e2e8f0;
-    }
-
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Inter', sans-serif;
-    }
-
-    /* Layout chính đồng bộ [cite: 5] */
-    .main-layout {
-        display: flex;
-        min-height: 100vh;
-        overflow: hidden;
-    }
-
-    /* --- SIDEBAR (Giữ nguyên từ Staff [cite: 6, 7]) --- */
-    .sidebar {
-        width: 260px;
-        background-color: var(--bg-sidebar);
-        border-right: 1px solid var(--border-color);
-        display: flex;
-        flex-direction: column;
-        position: sticky;
-        top: 0;
-        height: 100vh;
-    }
-
-    .sidebar-logo {
-        padding: 24px;
-        text-align: center;
-    }
-
-    .sidebar-menu {
-        padding: 16px;
-        flex-grow: 1;
-    }
-
-    .menu-item {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        padding: 12px 16px;
-        color: var(--text-muted);
-        text-decoration: none;
-        border-radius: 8px;
-        margin-bottom: 4px;
-        font-weight: 500;
-        transition: all 0.2s;
-    }
-
-        .menu-item:hover {
-            background-color: #f1f5f9;
-            color: var(--text-main);
-        }
-
-        .menu-item.active {
-            background-color: #eff6ff;
-            color: var(--primary-color);
-        }
-
-    /* --- NỘI DUNG CHÍNH [cite: 14, 15] --- */
-    .content-area {
-        flex-grow: 1;
-        background-color: var(--bg-body);
-        padding: 32px;
-        overflow-y: auto;
-    }
-
-    .page-header {
-        margin-bottom: 24px;
-    }
-
-        .page-header h1 {
-            font-size: 24px;
-            font-weight: 700;
-            margin: 0;
-        }
-
-    .data-card {
-        background: white;
-        border-radius: 12px;
-        border: 1px solid var(--border-color);
-        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    }
-
-    /* --- BẢNG DỮ LIỆU [cite: 19, 20, 21] --- */
-    .data-table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-        .data-table th {
-            background: #f8fafc;
-            padding: 12px 20px;
-            color: var(--text-muted);
-            font-size: 12px;
-            text-transform: uppercase;
-            text-align: left;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .data-table td {
-            padding: 16px 20px;
-            border-bottom: 1px solid #f1f5f9;
-            font-size: 14px;
-        }
-
-    /* --- BADGES TRẠNG THÁI (Kiểu dot giống Staff ) --- */
-    .status-badge {
-        padding: 4px 12px;
-        border-radius: 20px;
-        font-size: 12px;
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-    }
-
-    .dot {
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-    }
-
-    .badge-confirmed {
-        background: #dcfce7;
-        color: #15803d;
-    }
-
-        .badge-confirmed .dot {
-            background: #22c55e;
-        }
-
-    .badge-pending {
-        background: #fef9c3;
-        color: #854d0e;
-    }
-
-        .badge-pending .dot {
-            background: #eab308;
-        }
-
-    .badge-cancelled {
-        background: #fee2e2;
-        color: #b91c1c;
-    }
-
-        .badge-cancelled .dot {
-            background: #ef4444;
-        }
-
-    .btn-create {
-        background: var(--primary-color);
-        color: white;
-        padding: 10px 20px;
-        border-radius: 8px;
-        text-decoration: none;
-        display: inline-block;
-        margin-bottom: 20px;
-        font-weight: 500;
-    }
-</style>
-
 <div class="main-layout">
     <aside class="sidebar">
         <div style="padding: 24px; text-align: center;">
@@ -237,23 +67,30 @@
             </a>
         </nav>
     </aside>
-
     <main class="content-area">
-        <div class="page-header">
-            <h1>Quản lý đặt sân</h1>
-            <p style="color: var(--text-muted)">Danh sách đơn đăng ký vé và lịch đặt sân [cite: 41]</p>
+        <div class="header-flex" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+            <div>
+                <h1 style="margin: 0;">Danh sách Đặt Sân</h1>
+                <p style="color: var(--text-muted); margin: 4px 0 0 0;">Quản lý và theo dõi các đơn thuê sân hiện có</p>
+            </div>
+            <a asp-action="Create" class="btn-submit" style="text-decoration: none;">+ Đặt sân mới</a>
         </div>
 
-        <a asp-action="Create" class="btn-create">+ Tạo đơn mới</a>
+        <div class="search-box" style="margin-bottom: 24px;">
+            <form asp-action="Index" method="get" style="display: flex; gap: 8px;">
+                <input type="text" name="searchTerm" class="form-control" placeholder="Tìm theo tên khách hoặc sân..." value="@ViewData["CurrentFilter"]" style="max-width: 300px;" />
+                <button type="submit" class="btn-submit">Tìm kiếm</button>
+            </form>
+        </div>
 
-        <div class="data-card">
-            <table class="data-table">
+        <div class="table-container">
+            <table>
                 <thead>
                     <tr>
-                        <th>Mã đơn</th>
                         <th>Khách hàng</th>
-                        <th>Sân</th>
-                        <th>Thời gian</th>
+                        <th>Sân & Loại vé</th>
+                        <th>Thời gian thuê</th>
+                        <th>Tổng tiền</th>
                         <th>Trạng thái</th>
                         <th style="text-align: right">Thao tác</th>
                     </tr>
@@ -262,16 +99,21 @@
                     @foreach (var item in Model)
                     {
                         <tr>
-                            <td style="color: var(--text-muted); font-weight: 600;">#BK-@item.Id</td>
                             <td>
-                                <div style="font-weight: 600">@item.CustomerName</div>
-                                <div style="font-size: 12px; color: var(--text-muted)">@item.Phone</div>
+                                <div style="font-weight: 600;">@item.CustomerName</div>
+                                <div style="font-size: 0.85rem; color: var(--text-muted)">@item.Phone</div>
                             </td>
-                            <td>@item.Court</td>
                             <td>
-                                <div>@item.Date.ToShortDateString()</div>
-                                <div style="font-size: 12px; color: var(--primary-color)">@item.TimeSlot</div>
+                                <div>@item.Court</div>
+                                <div style="font-size: 0.85rem; color: var(--primary-color)">@item.TicketType</div>
                             </td>
+                            <td>
+                                <div style="font-weight: 500;">@item.Date.ToString("dd/MM/yyyy")</div>
+                                <div style="font-size: 0.85rem; color: #64748b;">
+                                    @item.StartHour:00 - @item.EndHour:00
+                                </div>
+                            </td>
+                            <td style="font-weight: 600;">@item.TotalPrice.ToString("N0") VNĐ</td>
                             <td>
                                 @if (item.Status == BookingStatus.Confirmed)
                                 {
@@ -287,8 +129,8 @@
                                 }
                             </td>
                             <td style="text-align: right">
-                                <a asp-action="Edit" asp-route-id="@item.Id" style="color: var(--primary-color); margin-right: 10px; text-decoration: none;">Sửa</a>
-                                <a asp-action="Delete" asp-route-id="@item.Id" style="color: #ef4444; text-decoration: none;">Xóa</a>
+                                <a asp-action="Edit" asp-route-id="@item.Id" style="color: var(--primary-color); margin-right: 12px; text-decoration: none;">Sửa</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" style="color: var(--danger); text-decoration: none;">Xóa</a>
                             </td>
                         </tr>
                     }

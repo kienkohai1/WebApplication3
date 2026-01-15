@@ -4,12 +4,7 @@ namespace WebApplication3.Services
 {
     public class BookingService : IBookingService
     {
-        // Sử dụng static list để dữ liệu không bị mất khi chuyển trang
-        private static List<Booking> _bookings = new List<Booking>
-        {
-            new Booking { Id = 1, CustomerName = "Nguyễn Văn A", Phone = "0901234567", Court = "Sân 1", Date = DateTime.Now, TimeSlot = "08:00 - 10:00", Price = 200000, Status = BookingStatus.Confirmed },
-            new Booking { Id = 2, CustomerName = "Trần Thị B", Phone = "0912345678", Court = "Sân 3", Date = DateTime.Now.AddDays(1), TimeSlot = "17:00 - 19:00", Price = 250000, Status = BookingStatus.Pending }
-        };
+        private static List<Booking> _bookings = new List<Booking>();
 
         public List<Booking> GetAll() => _bookings;
 
@@ -17,8 +12,8 @@ namespace WebApplication3.Services
 
         public void Add(Booking booking)
         {
-            // Tự động tăng ID
             booking.Id = _bookings.Any() ? _bookings.Max(b => b.Id) + 1 : 1;
+            CalculateTotalPrice(booking);
             _bookings.Add(booking);
         }
 
@@ -31,16 +26,30 @@ namespace WebApplication3.Services
                 existing.Phone = booking.Phone;
                 existing.Court = booking.Court;
                 existing.Date = booking.Date;
-                existing.TimeSlot = booking.TimeSlot;
-                existing.Price = booking.Price;
+                existing.StartHour = booking.StartHour;
+                existing.EndHour = booking.EndHour;
+                existing.TicketType = booking.TicketType;
                 existing.Status = booking.Status;
+
+                CalculateTotalPrice(existing);
             }
         }
 
-        public void Delete(int id)
+        public void Delete(int id) => _bookings.RemoveAll(b => b.Id == id);
+
+        private void CalculateTotalPrice(Booking booking)
         {
-            var booking = GetById(id);
-            if (booking != null) _bookings.Remove(booking);
+            decimal hourlyRate = booking.TicketType switch
+            {
+                TicketType.VIP => 300000,
+                TicketType.Student => 100000,
+                _ => 150000
+            };
+
+            // Tính số giờ bằng cách lấy giờ kết thúc trừ giờ bắt đầu
+            int totalHours = booking.EndHour - booking.StartHour;
+
+            booking.TotalPrice = totalHours > 0 ? (decimal)totalHours * hourlyRate : 0;
         }
     }
 }

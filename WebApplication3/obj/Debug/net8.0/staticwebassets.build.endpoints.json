@@ -85,6 +85,88 @@
       ]
     },
     {
+      "Route": "css/Booking.css",
+      "AssetFile": "css/Booking.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUBLWRiN44p4PJElEWeVxAdQ3ntpanOnRgLMnN1o8E0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 10:18:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUBLWRiN44p4PJElEWeVxAdQ3ntpanOnRgLMnN1o8E0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Booking.hzfxpyrp62.css",
+      "AssetFile": "css/Booking.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUBLWRiN44p4PJElEWeVxAdQ3ntpanOnRgLMnN1o8E0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 10:18:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hzfxpyrp62"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUBLWRiN44p4PJElEWeVxAdQ3ntpanOnRgLMnN1o8E0="
+        },
+        {
+          "Name": "label",
+          "Value": "css/Booking.css"
+        }
+      ]
+    },
+    {
       "Route": "css/Staff.css",
       "AssetFile": "css/Staff.css",
       "Selectors": [],

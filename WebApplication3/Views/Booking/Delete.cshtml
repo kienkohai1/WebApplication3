@@ -1,65 +1,63 @@
 ﻿@model WebApplication3.Models.Booking
 
 @{
-    ViewData["Title"] = "Xác nhận xóa đặt sân";
+    ViewData["Title"] = "Xác nhận xóa đơn đặt sân";
 }
 
-<style>
-    /* Kế thừa style từ trang Staff để đảm bảo hiển thị đúng form-container và các nút */
-    .form-container {
-        background: white;
-        padding: 40px;
-        border-radius: 12px;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        max-width: 450px;
-        width: 100%;
-    }
-
-    .btn-save {
-        padding: 10px 24px;
-        border-radius: 8px;
-        border: none;
-        color: white;
-        font-weight: 600;
-        cursor: pointer;
-        transition: opacity 0.2s;
-    }
-
-    .btn-back {
-        padding: 10px 24px;
-        border-radius: 8px;
-        text-decoration: none;
-        color: #64748b;
-        background: #f1f5f9;
-        font-weight: 600;
-    }
-</style>
-
 <div class="main-layout">
-    <div class="content-area" style="display: flex; align-items: center; justify-content: center; min-height: 80vh;">
-        <div class="form-container" style="text-align: center; border-top: 4px solid #ef4444;">
+    <main class="content-area" style="display: flex; align-items: center; justify-content: center; min-height: 80vh;">
+        <div class="form-card" style="text-align: center; max-width: 500px; border-top: 4px solid #ef4444;">
             <div style="color: #ef4444; margin-bottom: 16px;">
                 <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
-                    <line x1="12" y1="9" x2="12" y2="13"></line>
-                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    <path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
                 </svg>
             </div>
 
-            <h2>Xác nhận xóa đặt sân?</h2>
+            <h2 style="margin-bottom: 8px;">Xóa đơn đặt sân này?</h2>
             <p style="color: #64748b; margin-bottom: 24px;">
-                Bạn có chắc chắn muốn xóa đơn đặt sân của <strong>@Model.CustomerName</strong> tại <strong>@Model.Court</strong>? [cite: 57]
-                <br>Hành động này không thể hoàn tác và sẽ gỡ bỏ thông tin khỏi hệ thống. [cite: 57]
+                Bạn có chắc chắn muốn xóa đơn đặt của khách hàng <strong style="color: #1e293b;">@Model.CustomerName</strong>?
+                Hành động này không thể hoàn tác.
             </p>
+
+            <div style="background: #f8fafc; padding: 20px; border-radius: 12px; margin-bottom: 32px; text-align: left; border: 1px solid #e2e8f0;">
+                <div style="margin-bottom: 10px; display: flex; justify-content: space-between;">
+                    <span style="color: #64748b;">Mã đơn:</span>
+                    <span style="font-weight: 600;">#BK-@Model.Id</span>
+                </div>
+                <div style="margin-bottom: 10px; display: flex; justify-content: space-between;">
+                    <span style="color: #64748b;">Sân tập:</span>
+                    <span style="font-weight: 600;">@Model.Court</span>
+                </div>
+                <div style="margin-bottom: 10px; display: flex; justify-content: space-between;">
+                    <span style="color: #64748b;">Ngày đặt:</span>
+                    <span style="font-weight: 600;">@Model.Date.ToString("dd/MM/yyyy")</span>
+                </div>
+                <div style="margin-bottom: 10px; display: flex; justify-content: space-between;">
+                    <span style="color: #64748b;">Khung giờ:</span>
+                    <span style="font-weight: 600; color: #2563eb;">@Model.StartHour:00 - @Model.EndHour:00</span>
+                </div>
+                <div style="padding-top: 10px; border-top: 1px dashed #cbd5e1; display: flex; justify-content: space-between;">
+                    <span style="color: #64748b;">Tổng tiền:</span>
+                    <span style="font-weight: 700; color: #1e293b;">@Model.TotalPrice.ToString("N0") VNĐ</span>
+                </div>
+            </div>
 
             <form asp-action="Delete">
                 <input type="hidden" asp-for="Id" />
-                <div style="display: flex; justify-content: center; gap: 12px;">
-                    <button type="submit" class="btn-save" style="background: #ef4444;">Xóa vĩnh viễn</button>
-                    <a asp-action="Index" class="btn-back">Hủy</a>
-                </div>
+                <button type="submit" class="btn-submit" style="background: #ef4444; width: 100%; margin-bottom: 12px;">
+                    Xác nhận xóa đơn
+                </button>
+                <a asp-action="Index" style="color: #64748b; text-decoration: none; font-size: 14px; font-weight: 500;">
+                    Hủy và quay lại
+                </a>
             </form>
         </div>
-    </div>
+    </main>
 </div>
+
+<style>
+    .btn-submit:hover {
+        opacity: 0.9;
+        transform: translateY(-1px);
+    }
+</style>

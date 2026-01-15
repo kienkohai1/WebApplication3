@@ -1,0 +1,193 @@
+﻿/* Biến định hình màu sắc chủ đạo */
+:root {
+    --primary-color: #2962ff;
+    --primary-hover: #1545cc;
+    --bg-body: #f8fafc;
+    --bg-card: #ffffff;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --border-color: #e2e8f0;
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+}
+
+/* Cấu trúc Layout chính */
+.main-layout {
+    display: flex;
+    min-height: 100vh;
+    background: var(--bg-body);
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+.content-area {
+    flex-grow: 1;
+    padding: 2rem;
+    color: var(--text-main);
+}
+
+/* Card chứa Form */
+.form-card, .form-container {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Định dạng các ô nhập liệu */
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
+.form-control {
+    width: 100%;
+    padding: 0.625rem 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+    .form-control:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 3px rgba(41, 98, 255, 0.1);
+        outline: none;
+    }
+
+/* Nút bấm */
+.btn-submit, .btn-save {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+    .btn-submit:hover {
+        background: var(--primary-hover);
+    }
+
+.btn-back {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+/* Bảng danh sách (Index) */
+.table-container {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #f1f5f9;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Badge trạng thái */
+.status-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.badge-confirmed {
+    background: #dcfce7;
+    color: var(--success);
+}
+
+.badge-pending {
+    background: #fef3c7;
+    color: var(--warning);
+}
+
+.badge-cancelled {
+    background: #fee2e2;
+    color: var(--danger);
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+}
+/* sidebar */
+
+.sidebar {
+    width: 260px;
+    background-color: var(--bg-sidebar);
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.sidebar-logo {
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    color: var(--text-muted);
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+    .menu-item:hover {
+        background-color: #f1f5f9;
+        color: var(--text-main);
+    }
+
+    .menu-item.active {
+        background-color: #eff6ff;
+        color: var(--primary-color);
+    }

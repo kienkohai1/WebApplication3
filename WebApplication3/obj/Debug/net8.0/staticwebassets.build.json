@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YNCO3nr0AF71qG9NoOD86tWmBj/YDtyE2QSYQQSR1BY=",
+  "Hash": "kny+/NNZhJWYOvJoowUKfdBNG1k1jUxX49IHcrf02Yk=",
   "Source": "WebApplication3",
   "BasePath": "_content/WebApplication3",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication3.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Booking.css",
+      "SourceId": "WebApplication3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\",
+      "BasePath": "_content/WebApplication3",
+      "RelativePath": "css/Booking#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hzfxpyrp62",
+      "Integrity": "LUBLWRiN44p4PJElEWeVxAdQ3ntpanOnRgLMnN1o8E0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Booking.css"
     },
     {
       "Identity": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\site.css",
@@ -1341,6 +1362,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/Booking.css",
+      "AssetFile": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Booking.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUBLWRiN44p4PJElEWeVxAdQ3ntpanOnRgLMnN1o8E0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 10:18:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUBLWRiN44p4PJElEWeVxAdQ3ntpanOnRgLMnN1o8E0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Booking.hzfxpyrp62.css",
+      "AssetFile": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Booking.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUBLWRiN44p4PJElEWeVxAdQ3ntpanOnRgLMnN1o8E0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 10:18:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hzfxpyrp62"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Booking.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUBLWRiN44p4PJElEWeVxAdQ3ntpanOnRgLMnN1o8E0="
+        }
+      ]
+    },
     {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\site.css",
