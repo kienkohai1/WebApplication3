@@ -3,32 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\court\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\court\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\wwwroot\\css\\court.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\wwwroot\\css\\court.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\booking\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\booking\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\wwwroot\\css\\booking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\wwwroot\\css\\booking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\wwwroot\\css\\staff.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\wwwroot\\css\\staff.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\controllers\\courtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\courtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\court\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\court\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\court\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\court\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\court\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\court\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\services\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\services\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\services\\icourtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\services\\icourtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\services\\courtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\services\\courtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\models\\court.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\court.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,32 +79,44 @@
       "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\staff\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\staff\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\controllers\\staffcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\staffcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\staff\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\staff\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\wwwroot\\css\\booking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\wwwroot\\css\\booking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\staff\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\staff\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\controllers\\staffcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\staffcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\booking\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\booking\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\webapplication3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -79,20 +127,8 @@
       "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\staff\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\wwwroot\\css\\staff.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\wwwroot\\css\\staff.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{859C8C24-F870-478C-A8A8-1CE8EAEB7FD2}|WebApplication3\\WebApplication3.csproj|c:\\users\\khacb\\source\\repos\\webapplication3\\webapplication3\\views\\dash\\staff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -114,72 +150,189 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Court\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Court\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Court\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Court\\Delete.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwEEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T15:17:40.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Court\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Court\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Court\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Court\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T15:16:45.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CourtController.cs",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\CourtController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\CourtController.cs",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\CourtController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\CourtController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAA0wIUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T13:23:17.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Court\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Court\\Index.cshtml",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Court\\Index.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Court\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T13:31:27.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Court.css",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Court.css",
+              "RelativeDocumentMoniker": "WebApplication3\\wwwroot\\css\\Court.css",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Court.css",
+              "RelativeToolTip": "WebApplication3\\wwwroot\\css\\Court.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-15T13:41:35.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebApplication3\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebApplication3\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-14T07:31:37.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Staff.css",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Staff.css",
+              "RelativeDocumentMoniker": "WebApplication3\\wwwroot\\css\\Staff.css",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Staff.css",
+              "RelativeToolTip": "WebApplication3\\wwwroot\\css\\Staff.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-14T07:38:05.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Booking.css",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Booking.css",
+              "RelativeDocumentMoniker": "WebApplication3\\wwwroot\\css\\Booking.css",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Booking.css",
+              "RelativeToolTip": "WebApplication3\\wwwroot\\css\\Booking.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-15T09:55:58.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Booking\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Booking\\Index.cshtml",
               "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Booking\\Index.cshtml",
               "RelativeToolTip": "WebApplication3\\Views\\Booking\\Index.cshtml",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAawHIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-14T08:58:13.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Models\\Booking.cs",
-              "RelativeToolTip": "WebApplication3\\Models\\Booking.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA/wB4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T07:06:39.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BookingService.cs",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\BookingService.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Services\\BookingService.cs",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\BookingService.cs",
-              "RelativeToolTip": "WebApplication3\\Services\\BookingService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAuwDQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T08:54:07.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Booking\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Booking\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Booking\\Edit.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Booking\\Edit.cshtml",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAqwGUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Court\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Court\\Create.cshtml",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Court\\Create.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Court\\Create.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwE0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T09:14:08.259Z",
+              "WhenOpened": "2026-01-15T15:16:26.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "WebApplication3\\Controllers\\BookingController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwFMAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\IBookingService.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Services\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\IBookingService.cs",
+              "RelativeToolTip": "WebApplication3\\Services\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T08:55:24.228Z",
+              "WhenOpened": "2026-01-14T08:53:42.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
+              "Title": "ICourtService.cs",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\ICourtService.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Services\\ICourtService.cs",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\ICourtService.cs",
+              "RelativeToolTip": "WebApplication3\\Services\\ICourtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T13:15:57.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CourtService.cs",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\CourtService.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Services\\CourtService.cs",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\CourtService.cs",
+              "RelativeToolTip": "WebApplication3\\Services\\CourtService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T13:10:56.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StaffService.cs",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\StaffService.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Services\\StaffService.cs",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\StaffService.cs",
+              "RelativeToolTip": "WebApplication3\\Services\\StaffService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T07:13:57.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IStaffService.cs",
               "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\IStaffService.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Services\\IStaffService.cs",
@@ -192,33 +345,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Booking\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Booking\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Booking\\Delete.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Booking\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T09:14:38.856Z",
+              "DocumentIndex": 15,
+              "Title": "Court.cs",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Models\\Court.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\Court.cs",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Models\\Court.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\Court.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T13:00:18.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\BookingService.cs",
+              "RelativeToolTip": "WebApplication3\\Services\\BookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T08:54:07.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Models\\Booking.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T07:06:39.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T08:08:02.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Booking\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Booking\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Booking\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Booking\\Edit.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAqwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T09:14:08.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Booking\\Create.cshtml",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Booking\\Create.cshtml",
               "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Booking\\Create.cshtml",
               "RelativeToolTip": "WebApplication3\\Views\\Booking\\Create.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAqwFUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAqwFUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-14T09:13:45.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 21,
               "Title": "Staff.cs",
               "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Models\\Staff.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Models\\Staff.cs",
@@ -231,91 +436,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Staff\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Staff\\Create.cshtml",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Staff\\Create.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Staff\\Create.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T07:51:22.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StaffService.cs",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\StaffService.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Services\\StaffService.cs",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\StaffService.cs",
-              "RelativeToolTip": "WebApplication3\\Services\\StaffService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T07:13:57.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Booking.css",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Booking.css",
-              "RelativeDocumentMoniker": "WebApplication3\\wwwroot\\css\\Booking.css",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Booking.css",
-              "RelativeToolTip": "WebApplication3\\wwwroot\\css\\Booking.css",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAkwMAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-15T09:55:58.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Staff\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Staff\\Index.cshtml",
               "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Staff\\Index.cshtml",
               "RelativeToolTip": "WebApplication3\\Views\\Staff\\Index.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAwwEcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAM0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T07:25:06.005Z"
+              "WhenOpened": "2026-01-14T07:25:06.005Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T08:08:02.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Staff\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Staff\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Staff\\Edit.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Staff\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T07:52:18.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IBookingService.cs",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\IBookingService.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Services\\IBookingService.cs",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Services\\IBookingService.cs",
-              "RelativeToolTip": "WebApplication3\\Services\\IBookingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T08:53:42.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "StaffController1.cs",
               "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\StaffController1.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Controllers\\StaffController1.cs",
@@ -323,11 +457,77 @@
               "RelativeToolTip": "WebApplication3\\Controllers\\StaffController1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T07:10:30.966Z"
+              "WhenOpened": "2026-01-14T07:10:30.966Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Program.cs",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Program.cs",
+              "RelativeToolTip": "WebApplication3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T07:14:43.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T08:55:24.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Staff\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Staff\\Create.cshtml",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Staff\\Create.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Staff\\Create.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T07:51:22.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Staff\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Staff\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Staff\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Staff\\Edit.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T07:52:18.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Booking\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Booking\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Booking\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Booking\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T09:14:38.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "WebApplication3.csproj",
               "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
               "RelativeDocumentMoniker": "WebApplication3\\WebApplication3.csproj",
@@ -339,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 30,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Staff\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Staff\\Delete.cshtml",
@@ -351,19 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Program.cs",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Program.cs",
-              "RelativeToolTip": "WebApplication3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T07:14:43.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Shared\\_Layout.cshtml.css",
@@ -375,31 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Staff.css",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Staff.css",
-              "RelativeDocumentMoniker": "WebApplication3\\wwwroot\\css\\Staff.css",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Staff.css",
-              "RelativeToolTip": "WebApplication3\\wwwroot\\css\\Staff.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-14T07:38:05.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "WebApplication3\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "WebApplication3\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-14T07:31:37.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "Staff.cshtml",
               "DocumentMoniker": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\dash\\Staff.cshtml",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\dash\\Staff.cshtml",

@@ -1,0 +1,66 @@
+﻿@model WebApplication3.Models.Court
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xóa Sân - Quản lý Sân tập</title>
+    <link rel="stylesheet" href="~/css/Court.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Style từ Index -->
+    <style>
+        .btn-action-danger {
+            background: #fee2e2;
+            color: #ef4444;
+            border: 1px solid #fecaca;
+            border-radius: 6px;
+            padding: 10px;
+            font-weight: 700;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .btn-action-primary {
+            background: #2962ff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 8px 12px;
+            font-weight: 600;
+            font-size: 13px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-layout">
+        <!-- Sidebar nếu cần -->
+        <aside class="sidebar">
+            <!-- ... -->
+        </aside>
+
+        <main class="content-area">
+            <h1 style="margin: 0; font-size: 32px; font-weight: 700; color: #1e293b;">Xóa Sân</h1>
+            <p style="color: #64748b; margin-top: 4px;">Bạn chắc chắn muốn xóa sân: @Model.Name?</p>
+
+            <div style="background: #f8fafc; border: 1px solid #f1f5f9; padding: 16px; border-radius: 10px; margin-bottom: 16px;">
+                <p><strong>Tên sân:</strong> @Model.Name</p>
+                <p><strong>Loại sân:</strong> @Model.Type</p>
+                <p><strong>Trạng thái:</strong> @Model.Status</p>
+                <p><strong>Mô tả:</strong> @Model.Description</p>
+            </div>
+
+            <form asp-action="Delete" method="post">
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn-action-danger">Xác Nhận Xóa</button>
+            </form>
+            <a asp-action="Index" style="display: block; margin-top: 16px; color: #64748b; text-decoration: none;">Quay lại</a>
+        </main>
+    </div>
+</body>
+</html>

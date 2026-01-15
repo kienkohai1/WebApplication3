@@ -24,7 +24,7 @@ namespace WebApplication3.Models
 
         [Required(ErrorMessage = "Vui lòng chọn giờ bắt đầu")]
         [Range(0, 23, ErrorMessage = "Giờ phải từ 0 đến 23")]
-        public int StartHour { get; set; } // Đổi từ StartTime
+        public int StartHour { get; set; } //StartTime
 
         [Required(ErrorMessage = "Vui lòng chọn giờ kết thúc")]
         [Range(0, 23, ErrorMessage = "Giờ phải từ 0 đến 23")]

@@ -44,6 +44,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/khacb/source/repos/WebApplication3/WebApplication3/Views/Court/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/khacb/source/repos/WebApplication3/WebApplication3/Views/Court/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/khacb/source/repos/WebApplication3/WebApplication3/Views/Court/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/khacb/source/repos/WebApplication3/WebApplication3/Views/Court/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/khacb/source/repos/WebApplication3/WebApplication3/Views/dash/Staff.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGFzaFxTdGFmZi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

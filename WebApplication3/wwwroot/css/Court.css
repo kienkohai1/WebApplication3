@@ -1,0 +1,207 @@
+﻿/* ===============================
+   1. BIẾN MÀU – ĐỒNG BỘ BOOKING
+================================ */
+:root {
+    --primary-color: #2962ff;
+    --primary-hover: #1545cc;
+    --bg-body: #f8fafc;
+    --bg-card: #ffffff;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --border-color: #e2e8f0;
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+}
+
+/* Cấu trúc Layout chính */
+.main-layout {
+    display: flex;
+    min-height: 100vh;
+    background: var(--bg-body);
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+.content-area {
+    flex-grow: 1;
+    padding: 2rem;
+    color: var(--text-main);
+}
+
+
+
+
+
+
+/* ===============================
+   3. SIDEBAR
+================================ */
+.sidebar {
+    width: 260px;
+    background-color: #ffffff;
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    flex-shrink: 0;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    margin: 4px 16px; /* ❗ không sát mép trong */
+    color: var(--text-muted);
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+    .menu-item:hover {
+        background-color: #f1f5f9;
+        color: var(--text-main);
+    }
+
+    .menu-item.active {
+        background-color: #eff6ff;
+        color: var(--primary-color);
+    }
+
+/* ===============================
+   4. CONTENT AREA  (CÁCH 1)
+   → Tạo khoảng cách với sidebar
+================================ */
+.content-area {
+    flex-grow: 1;
+    padding: 2.5rem 3rem; /* ❗ KHÔNG CÒN SÁT RÌA */
+    color: var(--text-main);
+    overflow-y: auto;
+}
+
+/* ===============================
+   5. CONTAINER GIỚI HẠN RỘNG (CÁCH 2)
+================================ */
+.container-custom {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* ===============================
+   6. COURT GRID (INDEX)
+================================ */
+.court-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.court-card {
+    background: var(--bg-card);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+    .court-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.08);
+    }
+
+/* ===============================
+   7. INFO BOX
+================================ */
+.info-box {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #f8fafc;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ===============================
+   8. STATUS BADGE
+================================ */
+.status-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.badge-available {
+    background: #dcfce7;
+    color: var(--success);
+}
+
+.badge-occupied {
+    background: #fee2e2;
+    color: var(--danger);
+}
+
+.badge-maintenance {
+    background: #fef3c7;
+    color: var(--warning);
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+/* ===============================
+   9. STATUS SUMMARY
+================================ */
+.status-summary {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.summary-item {
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    background: white;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* ===============================
+   10. BUTTON
+================================ */
+.btn-submit {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+    .btn-submit:hover {
+        background: var(--primary-hover);
+    }

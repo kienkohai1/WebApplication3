@@ -1,0 +1,90 @@
+﻿@model WebApplication3.Models.Court
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sửa Sân - Quản lý Sân tập</title>
+    <link rel="stylesheet" href="~/css/Court.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Style từ Index -->
+    <style>
+        .quick-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 13px;
+            margin-bottom: 8px;
+            outline: none;
+        }
+
+            .quick-input:focus {
+                border-color: #2962ff;
+            }
+
+        .btn-action-primary {
+            background: #2962ff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 8px 12px;
+            font-weight: 600;
+            font-size: 13px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-layout">
+        <!-- Sidebar nếu cần -->
+        <aside class="sidebar">
+            <!-- ... -->
+        </aside>
+
+        <main class="content-area">
+            <h1 style="margin: 0; font-size: 32px; font-weight: 700; color: #1e293b;">Sửa Thông Tin Sân</h1>
+            <p style="color: #64748b; margin-top: 4px;">Chỉnh sửa sân: @Model.Name</p>
+
+            <form asp-action="Edit" method="post">
+                <input type="hidden" asp-for="Id" />
+
+                <div class="form-group" style="margin-bottom: 16px;">
+                    <label asp-for="Name" style="font-size: 14px; font-weight: 600; color: #1e293b;"></label>
+                    <input asp-for="Name" class="quick-input" />
+                    <span asp-validation-for="Name" style="color: #ef4444; font-size: 12px;"></span>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 16px;">
+                    <label asp-for="Type" style="font-size: 14px; font-weight: 600; color: #1e293b;"></label>
+                    <input asp-for="Type" class="quick-input" />
+                    <span asp-validation-for="Type" style="color: #ef4444; font-size: 12px;"></span>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 16px;">
+                    <label asp-for="Description" style="font-size: 14px; font-weight: 600; color: #1e293b;"></label>
+                    <textarea asp-for="Description" class="quick-input" rows="4"></textarea>
+                </div>
+
+                <!-- Trạng thái chỉ hiển thị nếu cần, nhưng không cho sửa ở đây vì controller xử lý riêng -->
+                <div class="form-group" style="margin-bottom: 16px;">
+                    <label asp-for="Status" style="font-size: 14px; font-weight: 600; color: #1e293b;"></label>
+                    <select asp-for="Status" class="quick-input">
+                        <option value="Available">Sẵn sàng</option>
+                        <option value="Maintenance">Đang bảo trì</option>
+                        <option value="Occupied">Đang sử dụng</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-action-primary">Lưu Thay Đổi</button>
+                <a asp-action="Index" style="margin-left: 16px; color: #64748b; text-decoration: none;">Quay lại</a>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

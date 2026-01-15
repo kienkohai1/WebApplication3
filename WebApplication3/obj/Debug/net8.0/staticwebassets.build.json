@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kny+/NNZhJWYOvJoowUKfdBNG1k1jUxX49IHcrf02Yk=",
+  "Hash": "u4RL9jYroP27IsfYzFF/1KmxBi0hcjXK5S/IXwcVsBM=",
   "Source": "WebApplication3",
   "BasePath": "_content/WebApplication3",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Booking.css"
+    },
+    {
+      "Identity": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Court.css",
+      "SourceId": "WebApplication3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\",
+      "BasePath": "_content/WebApplication3",
+      "RelativePath": "css/Court#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qg0oldu26x",
+      "Integrity": "pv7/abQ+woOVhUB+W4je7QOG1oy8ZwspPzeWsBOm/uc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Court.css"
     },
     {
       "Identity": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\site.css",
@@ -1441,6 +1462,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-LUBLWRiN44p4PJElEWeVxAdQ3ntpanOnRgLMnN1o8E0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Court.css",
+      "AssetFile": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Court.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pv7/abQ+woOVhUB+W4je7QOG1oy8ZwspPzeWsBOm/uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 15:28:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pv7/abQ+woOVhUB+W4je7QOG1oy8ZwspPzeWsBOm/uc="
+        }
+      ]
+    },
+    {
+      "Route": "css/Court.qg0oldu26x.css",
+      "AssetFile": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Court.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pv7/abQ+woOVhUB+W4je7QOG1oy8ZwspPzeWsBOm/uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 15:28:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qg0oldu26x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Court.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pv7/abQ+woOVhUB+W4je7QOG1oy8ZwspPzeWsBOm/uc="
         }
       ]
     },

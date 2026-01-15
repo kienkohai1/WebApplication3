@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\Booking.css"
     },
     {
+      "Id": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Court.css",
+      "PackagePath": "staticwebassets\\css\\Court.css"
+    },
+    {
       "Id": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\Staff.css",
       "PackagePath": "staticwebassets\\css\\Staff.css"
     },

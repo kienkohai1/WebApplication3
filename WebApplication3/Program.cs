@@ -7,6 +7,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddSingleton<IStaffService, StaffService>();
 builder.Services.AddSingleton<IBookingService, BookingService>();
+builder.Services.AddSingleton<ICourtService, CourtService>();
 
 builder.Services.AddControllersWithViews();
 
