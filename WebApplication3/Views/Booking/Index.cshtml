@@ -59,7 +59,7 @@
                 Yêu cầu thêm
             </a>
 
-            <a href="#" class="menu-item">
+            <a asp-controller="Inventory" asp-action="Index" class="menu-item">
                 <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
                 </svg>
@@ -70,7 +70,7 @@
     <main class="content-area">
         <div class="header-flex" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
             <div>
-                <h1 style="margin: 0;">Danh sách Đặt Sân</h1>
+                <h1>Danh sách Đặt Sân</h1>
                 <p style="color: var(--text-muted); margin: 4px 0 0 0;">Quản lý và theo dõi các đơn thuê sân hiện có</p>
             </div>
             <a asp-action="Create" class="btn-submit" style="text-decoration: none;">+ Đặt sân mới</a>
