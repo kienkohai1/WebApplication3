@@ -1,35 +1,34 @@
-﻿﻿<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Hunter - Quản lý Sân Tập</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        body {
-            background-color: #f8fafc;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-    </style>
-</head>
-<body class="flex h-screen overflow-hidden">
+﻿@{
+    ViewData["Title"] = "Dashboard - The Hunter";
+}
 
-    <aside class="w-64 bg-white border-r border-gray-200 flex flex-col h-full">
-        <div class="p-6 text-center border-b border-gray-200">
-            <div class="text-lg font-extrabold text-slate-800">Quản lý Sân Tập</div>
-            <div class="text-base font-semibold text-blue-600"><i class="fas fa-crosshairs mr-1"></i>THE HUNTER</div>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+    /* Loại bỏ phần đặt font-family cho body để không bị ghi đè bởi CSS của Layout nếu cần */
+    .dashboard-container {
+        background-color: #f8fafc;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+</style>
+
+<div class="flex h-screen overflow-hidden dashboard-container">
+    <aside class="sidebar">
+        <div style="padding: 24px; text-align: center;">
+            <div style="font-size: 18px; font-weight: 800; color: #1e293b;">Quản lý Sân Tập</div>
+            <div style="font-size: 16px; color: var(--primary-color); font-weight: 600;">The Hunter</div>
         </div>
 
-        <nav class="flex flex-col mt-4 px-4">
-            <p class="text-xs text-gray-500 mb-2">Menu quản lý</p>
-            <a asp-controller="Home" asp-action="Index" class="flex items-center px-4 py-3 text-blue-600 bg-blue-100 font-medium rounded-md">
+        <nav class="sidebar-menu">
+            <p style="font-size: 12px; color: var(--text-muted); padding: 0 16px; margin-bottom: 8px;">Menu quản lý</p>
+            <a asp-controller="Home" asp-action="Index" class="menu-item active">
                 <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" class="w-5 h-5 mr-3"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
                 Dashboard
             </a>
-            <a asp-controller="Court" asp-action="Index" class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 rounded-md transition">
-                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" class="w-5 h-5 mr-3">
+            <a asp-controller="Court" asp-action="Index" class="menu-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
                     <line x1="16" y1="2" x2="16" y2="6"></line>
                     <line x1="8" y1="2" x2="8" y2="6"></line>
@@ -37,8 +36,8 @@
                 </svg>
                 Quản lý sân
             </a>
-            <a asp-controller="Staff" asp-action="Index" class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 rounded-md transition">
-                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" class="w-5 h-5 mr-3">
+            <a asp-controller="Staff" asp-action="Index" class="menu-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                     <circle cx="9" cy="7" r="4"></circle>
                     <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
@@ -47,22 +46,22 @@
                 Quản lý nhân sự
             </a>
 
-            <a asp-controller="Booking" asp-action="Index" class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 rounded-md transition">
-                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" class="w-5 h-5 mr-3">
+            <a asp-controller="Booking" asp-action="Index" class="menu-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"></path>
                 </svg>
                 Đăng ký vé
             </a>
 
-            <a asp-controller="Order" asp-action="Index" class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 rounded-md transition">
-                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" class="w-5 h-5 mr-3">
+            <a asp-controller="Order" asp-action="Index" class="menu-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
                 Yêu cầu thêm
             </a>
 
-            <a asp-controller="Inventory" asp-action="Index" class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 rounded-md transition">
-                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" class="w-5 h-5 mr-3">
+            <a asp-controller="Inventory" asp-action="Index" class="menu-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
                 </svg>
                 Kho hàng
@@ -126,9 +125,11 @@
             </div>
         </div>
     </main>
+</div>
 
+@section Scripts {
     <script>
-        // Line Chart
+        // Biểu đồ Line
         const lineCtx = document.getElementById('lineChart').getContext('2d');
         new Chart(lineCtx, {
             type: 'line',
@@ -157,7 +158,7 @@
             }
         });
 
-        // Pie Chart
+        // Biểu đồ Pie
         const pieCtx = document.getElementById('pieChart').getContext('2d');
         new Chart(pieCtx, {
             type: 'pie',
@@ -169,18 +170,14 @@
                 }]
             },
             options: {
-                plugins: { 
-                    legend: { 
-                        display: true, 
+                plugins: {
+                    legend: {
+                        display: true,
                         position: 'right',
-                        labels: {
-                            boxWidth: 12,
-                            padding: 20
-                        }
-                    } 
+                        labels: { boxWidth: 12, padding: 20 }
+                    }
                 }
             }
         });
     </script>
-</body>
-</html>
+}

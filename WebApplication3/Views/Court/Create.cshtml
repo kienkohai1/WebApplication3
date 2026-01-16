@@ -42,9 +42,59 @@
 </head>
 <body>
     <div class="main-layout">
-        <!-- Sidebar tương tự Index (copy nếu cần, hoặc bỏ nếu chỉ form) -->
         <aside class="sidebar">
-            <!-- ... (copy sidebar từ Index.cshtml nếu muốn) -->
+            <div style="padding: 24px; text-align: center;">
+                <div style="font-size: 18px; font-weight: 800; color: #1e293b;">Quản lý Sân Tập</div>
+                <div style="font-size: 16px; color: var(--primary-color); font-weight: 600;">The Hunter</div>
+            </div>
+
+            <nav class="sidebar-menu">
+                <p style="font-size: 12px; color: var(--text-muted); padding: 0 16px; margin-bottom: 8px;">Menu quản lý</p>
+                <a asp-controller="Home" asp-action="Index" class="menu-item">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                    Dashboard
+                </a>
+                <a asp-controller="Court" asp-action="Index" class="menu-item active">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    Quản lý sân
+                </a>
+                <a asp-controller="Staff" asp-action="Index" class="menu-item">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    Quản lý nhân sự
+                </a>
+
+                <a asp-controller="Booking" asp-action="Index" class="menu-item">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"></path>
+                    </svg>
+                    Đăng ký vé
+                </a>
+
+                <a asp-controller="Order" asp-action="Index" class="menu-item">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    Yêu cầu thêm
+                </a>
+
+                <a asp-controller="Inventory" asp-action="Index" class="menu-item">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                    </svg>
+                    Kho hàng
+                </a>
+            </nav>
+        </aside>
         </aside>
 
         <main class="content-area">

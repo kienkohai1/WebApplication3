@@ -12,7 +12,7 @@
 
         <nav class="sidebar-menu">
             <p style="font-size: 12px; color: var(--text-muted); padding: 0 16px; margin-bottom: 8px;">Menu quản lý</p>
-            <a href="#" class="menu-item">
+            <a asp-controller="Home" asp-action="Index" class="menu-item">
                 <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
                 Dashboard
             </a>
@@ -49,7 +49,7 @@
                 Yêu cầu thêm
             </a>
 
-            <a href="#" class="menu-item">
+            <a asp-controller="Inventory" asp-action="Index" class="menu-item">
                 <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
                 </svg>
