@@ -30,7 +30,11 @@ namespace WebApplication3.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
-
+        // GET: Order/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
         // POST: Order/UpdateStatus
         [HttpPost]
         public IActionResult UpdateStatus(int id, OrderStatus status)
@@ -38,5 +42,6 @@ namespace WebApplication3.Controllers
             _orderService.UpdateStatus(id, status);
             return RedirectToAction(nameof(Index));
         }
+
     }
 }

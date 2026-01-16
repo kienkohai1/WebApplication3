@@ -64,36 +64,13 @@
                 <h1 style="font-size: 24px; font-weight: 700;">Dịch vụ & Gọi đồ</h1>
                 <p style="color: #64748b;">Quản lý yêu cầu phục vụ tại các sân</p>
             </div>
-            <div class="data-card" style="padding: 16px; background: #eff6ff; border: 1px solid #bfdbfe;">
-                <form asp-action="Create" method="post" style="display: flex; gap: 10px; align-items: flex-end;">
-                    <div>
-                        <label style="font-size: 12px; font-weight: 600;">Khách hàng</label>
-                        <input name="CustomerName" required class="form-control" style="width: 150px;" />
-                    </div>
-                    <div>
-                        <label style="font-size: 12px; font-weight: 600;">Sân</label>
-                        <select name="CourtName" class="form-control">
-                            @for (int i = 1; i <= 8; i++)
-                            {
-                                <option>Sân @i</option>
-                            }
-                        </select>
-                    </div>
-                    <div>
-                        <label style="font-size: 12px; font-weight: 600;">Món đồ</label>
-                        <select name="ItemName" class="form-control">
-                            <option>Nước suối</option>
-                            <option>Bia tập</option>
-                            <option>Mũi tên</option>
-                            <option>Khăn lạnh</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label style="font-size: 12px; font-weight: 600;">SL</label>
-                        <input type="number" name="Quantity" value="1" min="1" class="form-control" style="width: 60px;" />
-                    </div>
-                    <button type="submit" class="btn-submit" style="background:#2962ff; color:white; border:none; padding: 10px 20px; border-radius: 8px; cursor:pointer;">+ Gọi đồ</button>
-                </form>
+            <div style="display: flex; gap: 12px; align-items: center;">
+                <a asp-action="Create" class="btn-submit" style="background: #2962ff; color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: 700; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 6px -1px rgba(41, 98, 255, 0.2);">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path d="M12 5v14M5 12h14"></path>
+                    </svg>
+                    TẠO ĐƠN GỌI ĐỒ MỚI
+                </a>
             </div>
         </div>
 
