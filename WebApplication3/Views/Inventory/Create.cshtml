@@ -1,0 +1,65 @@
+﻿@model WebApplication3.Models.Product
+
+@{
+    ViewData["Title"] = "Thêm vật tư";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h4>Thêm sản phẩm mới vào kho</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Name" class="form-label font-weight-bold"></label>
+                        <input asp-for="Name" class="form-control" placeholder="Ví dụ: Bia giấy 60cm" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Category" class="form-label font-weight-bold"></label>
+                        <select asp-for="Category" class="form-select">
+                            <option value="Vật tư">Vật tư (Bia, mục tiêu)</option>
+                            <option value="Phụ kiện">Phụ kiện (Mũi tên, bao tay)</option>
+                            <option value="Nước uống">Nước uống</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label asp-for="ImportPrice" class="form-label"></label>
+                        <input asp-for="ImportPrice" type="number" class="form-control" />
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label asp-for="Price" class="form-label"></label>
+                        <input asp-for="Price" type="number" class="form-control" />
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label asp-for="StockQuantity" class="form-label"></label>
+                        <input asp-for="StockQuantity" type="number" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label"></label>
+                    <textarea asp-for="Description" class="form-control" rows="2"></textarea>
+                </div>
+
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-primary px-4">Lưu lại</button>
+                    <a asp-action="Index" class="btn btn-light ms-2">Quay lại danh sách</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

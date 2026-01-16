@@ -9,7 +9,7 @@ builder.Services.AddSingleton<IStaffService, StaffService>();
 builder.Services.AddSingleton<IBookingService, BookingService>();
 builder.Services.AddSingleton<ICourtService, CourtService>();
 builder.Services.AddSingleton<IOrderService, OrderService>();
-
+builder.Services.AddSingleton<IProductService, ProductService>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

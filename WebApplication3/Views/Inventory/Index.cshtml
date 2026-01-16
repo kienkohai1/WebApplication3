@@ -1,0 +1,88 @@
+﻿@model IEnumerable<WebApplication3.Models.Product>
+
+@{
+    ViewData["Title"] = "Quản lý kho vật tư bắn cung";
+}
+
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><i class="bi bi-box-seam"></i> Quản lý kho hàng</h2>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i> Thêm sản phẩm mới
+        </a>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="card bg-info text-white shadow">
+                <div class="card-body">
+                    <h5>Tổng mặt hàng: @ViewBag.TotalProducts</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-warning text-dark shadow">
+                <div class="card-body">
+                    <h5>Sắp hết hàng (< 10): @ViewBag.LowStockCount</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-success text-white shadow">
+                <div class="card-body">
+                    <h5>Giá trị tồn vốn: @string.Format("{0:N0}", ViewBag.TotalStockValue) VNĐ</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form asp-action="Index" method="get" class="row g-3 mb-4">
+        <div class="col-auto">
+            <input type="text" name="searchTerm" class="form-control" placeholder="Tìm tên hoặc danh mục..." value="@ViewData["CurrentFilter"]">
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-secondary">Tìm kiếm</button>
+        </div>
+    </form>
+
+    <table class="table table-hover shadow-sm bg-white">
+        <thead class="table-dark">
+            <tr>
+                <th>Sản phẩm</th>
+                <th>Danh mục</th>
+                <th class="text-end">Giá nhập</th>
+                <th class="text-end">Giá bán</th>
+                <th class="text-center">Số lượng</th>
+                <th class="text-center">Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <strong>@item.Name</strong><br />
+                        <small class="text-muted">@item.Description</small>
+                    </td>
+                    <td>@item.Category</td>
+                    <td class="text-end">@string.Format("{0:N0}", item.ImportPrice)</td>
+                    <td class="text-end text-primary fw-bold">@string.Format("{0:N0}", item.Price)</td>
+                    <td class="text-center">
+                        <span class="badge @(item.StockQuantity < 10 ? "bg-danger" : "bg-success")">
+                            @item.StockQuantity
+                        </span>
+                    </td>
+                    <td class="text-center">
+                        <div class="btn-group">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-warning">Sửa</a>
+                            <form asp-action="Delete" asp-route-id="@item.Id" method="post" onsubmit="return confirm('Xóa sản phẩm này?')">
+                                <button type="submit" class="btn btn-sm btn-outline-danger ms-1">Xóa</button>
+                            </form>
+                        </div>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
