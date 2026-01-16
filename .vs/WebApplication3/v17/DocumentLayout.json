@@ -206,8 +206,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\Inventory\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T05:38:51.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T05:38:51.049Z"
             },
             {
               "$type": "Document",
@@ -217,7 +216,7 @@
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Inventory\\Index.cshtml",
               "ToolTip": "C:\\Users\\khacb\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Inventory\\Index.cshtml",
               "RelativeToolTip": "WebApplication3\\Views\\Inventory\\Index.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAgwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAAALUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-16T04:08:16.405Z",
               "EditorCaption": ""
@@ -232,8 +231,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\Order\\Index.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-15T16:33:02.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T16:33:02.024Z"
             },
             {
               "$type": "Document",
@@ -245,8 +243,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\Court\\Index.cshtml",
               "ViewState": "AgIAAKsAAAAAAAAAAAAAAL8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-15T13:31:27.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T13:31:27.205Z"
             },
             {
               "$type": "Document",
@@ -258,8 +255,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\Staff\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAKYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T07:25:06.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T07:25:06.005Z"
             },
             {
               "$type": "Document",
@@ -271,8 +267,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\Staff\\Create.cshtml",
               "ViewState": "AgIAAGMAAAAAAAAAAAAgwIIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T07:51:22.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T07:51:22.476Z"
             },
             {
               "$type": "Document",
@@ -284,8 +279,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\Order\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T02:50:12.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T02:50:12.548Z"
             },
             {
               "$type": "Document",
@@ -297,8 +291,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\Inventory\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T04:10:24.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T04:10:24.833Z"
             },
             {
               "$type": "Document",
@@ -310,8 +303,7 @@
               "RelativeToolTip": "WebApplication3\\Controllers\\InventoryController.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAgwIsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T04:04:29.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T04:04:29.559Z"
             },
             {
               "$type": "Document",
@@ -323,8 +315,7 @@
               "RelativeToolTip": "WebApplication3\\Controllers\\StaffController1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T07:10:30.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T07:10:30.966Z"
             },
             {
               "$type": "Document",
@@ -336,8 +327,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\Booking\\Index.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T08:58:13.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T08:58:13.149Z"
             },
             {
               "$type": "Document",
@@ -349,8 +339,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T08:08:02.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T08:08:02.172Z"
             },
             {
               "$type": "Document",
